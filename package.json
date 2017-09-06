@@ -1,0 +1,15 @@
+{
+  "name": "docker_web_app",
+  "version": "1.0.0",
+  "description": "Node.js on Docker",
+  "author": "Ovi Pop <ovi@pops.net.nz>",
+  "main": "server.js",
+  "scripts": {
+    "start": "supervisor server.js"
+  },
+  "dependencies": {
+    "express": "^4.13.3",
+    "jquery": "^3.2.1",
+    "jsdom": "^11.2.0"
+  }
+}
